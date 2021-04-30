@@ -1,0 +1,20 @@
+
+    .button {width: 50px;}
+    
+    .mypanel{width: 200px;
+            height: 600px;
+            float: left;
+            border: 1px solid black;
+            clear: both;}
+    
+    .mainpage{
+            height: 600px;
+            padding-left:  250px;
+            padding-top: 50px;
+            }
+    .dogimage{
+            float : right;
+    }
+    .sub_title{
+            font-size: 10px;
+    }
