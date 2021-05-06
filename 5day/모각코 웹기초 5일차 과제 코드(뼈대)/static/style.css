@@ -59,9 +59,9 @@ position: absolute;
   /* 테두리는 실선으로 */
   border-style: solid;
 /* 테두리 색생은 white */
- border-color: white;
+ border-color:  #eeeeee;
  /* 배경 white 로 채우기 */
- background-color : white;
+ background-color: #eeeeee;
   /* width, height 값은 auto으로 설정,   top, bottom, left, right 값은 10~13 px  */
  position: absolute;
        top: 10px;
@@ -70,5 +70,49 @@ position: absolute;
        right: 10px;
        width: auto;
        height: auto;
+/* flex 레이아웃 적용을 위한 */
+  display: flex; 
+  flex-direction: row;
+}
+.item1 {
+  flex:0.25;
+  display:flex;
+  flex-direction: column;
+  margin:20px;
+}
+.item2 {
+    flex:0.65;
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+}
 
+.column1 {
+  flex:0.05;
+  display:flex;
+  margin-top:5px;
+}
+.column2 {
+  border-radius: 10px;
+  flex : 1;
+  background-color: white;
+  margin-top:15px;
+}
+
+.column3 {
+  flex:0.05;
+  display:flex;
+  margin-top:5px;
+}
+.column4 {
+  border-radius: 10px;
+  border-color:  #eeeeee;
+  flex : 1;
+  background-color: white;
+  margin-top:15px;
+}
+
+.menu_button {
+  flex: 0.1;
+  border-style :solid;
 }
