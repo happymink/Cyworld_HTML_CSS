@@ -97,6 +97,7 @@ position: absolute;
   flex : 1;
   background-color: white;
   margin-top:15px;
+  flex-direction: column;
 }
 
 .column3 {
@@ -115,4 +116,18 @@ position: absolute;
 .menu_button {
   flex: 0.1;
   border-style :solid;
+}
+
+.profile_img{
+  flex: 0.3;
+  display:flex;
+  border-radius: 10px;
+  margin-left:25px;
+  margin-top : 15px;
+}
+
+.profile_txt{
+  flex: 0.6;
+  display:flex;
+  background-color: pink;
 }
