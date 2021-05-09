@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #a3a3a3;
   /** body에 배경이미지 적용 */
@@ -111,6 +118,7 @@ position: absolute;
   flex : 1;
   background-color: white;
   margin-top:15px;
+  flex-direction: column;
 }
 
 .menu_button {
@@ -127,7 +135,20 @@ position: absolute;
 }
 
 .profile_txt{
-  flex: 0.6;
+  text-align: center;
   display:flex;
-  background-color: pink;
+
+  padding-top: 100px;
+  font-family: 'Middleschool_student';
+}
+
+.update_news{
+  flex : 0.4;
+  display: flex;
+  margin: 6px;
+  padding: 18;
+}
+.miniroom{
+  flex : 0.6;
+  display: flex;
 }
