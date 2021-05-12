@@ -156,7 +156,7 @@ body {
     padding: 1rem;
     width: auto;
     height: auto;
-    
+    overflow: auto;
   }
 
   
@@ -231,9 +231,10 @@ body {
 
   .menu-item2 {
     
+    
     padding: 10px 0px 10px 7px;
     margin: 2px 0px;
-    font-size: 13px;
+    font-size: 20px;
     color: black;
     background-color: #4c85a7;
     border: 0.01em #181818 solid;
